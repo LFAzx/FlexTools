@@ -271,8 +271,9 @@ python main.py detector \
 
 ---
 
-Detection Workflow
+## Detection Workflow
 
+```text
 Target URL
     │
     ▼
@@ -308,35 +309,45 @@ Terminal Output
     │
     ▼
 JSON + TXT Reports
+```
 
 ---
 
-Reporting
+## Reporting
 
 FlexTools automatically saves analysis results.
 
 Default report directory:
 
+```text
 reports/
+```
 
 Reports may include:
 
+```text
 reports/
 ├── report_YYYYMMDD_HHMMSS.json
 └── report_YYYYMMDD_HHMMSS.txt
+```
 
 List generated reports:
 
+```bash
 python main.py report --list
+```
 
 Use a custom report directory:
 
+```bash
 python main.py report --list --dir results
+```
 
 ---
 
-Project Structure
+## Project Structure
 
+```text
 FlexTools/
 │
 ├── assets/
@@ -377,6 +388,7 @@ FlexTools/
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
 
 ---
 
